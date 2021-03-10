@@ -1,0 +1,6 @@
+[template]
+exclude = []
+
+[placeholders.url]
+prompt = "What is the url to get data source ?"
+type = "string"
