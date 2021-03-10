@@ -1,7 +1,7 @@
 use crate::error::ContractError;
-use crate::msg::{HandleMsg, InitMsg, QueryMsg, SpecialQuery};
+use crate::msg::{HandleMsg, InitMsg, QueryMsg};
 use cosmwasm_std::{
-    to_binary, Api, Binary, Env, Extern, HandleResponse, InitResponse, MessageInfo, Querier,
+    to_binary, Api, Binary, Env, Extern, HandleResponse, HumanAddr, InitResponse, MessageInfo, Querier,
     StdResult, Storage,
 };
 
