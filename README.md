@@ -18,5 +18,5 @@ cargo install --git https://github.com/cargo-generate/cargo-generate.git --featu
 ## generate the template
 
 ```bash
-cargo generate --git https://github.com/oraichain/testcase-contract-template.git --name PROJECT_NAME
+cargo generate --git https://github.com/oraichain/testcase-contract-template.git --name PROJECT_NAME --force
 ```
