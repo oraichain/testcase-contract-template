@@ -1,6 +1,6 @@
 [package]
 authors = ["{{authors}}"]
-edition = "2021"
+edition = "2018"
 name = "{{crate_name}}"
 version = "0.1.0"
 
