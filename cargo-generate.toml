@@ -1,2 +1,2 @@
 [template]
-exclude = []
+exclude = ["schema", ".git"]
